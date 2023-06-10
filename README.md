@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+# FAU Social Web App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). Authored by Emily Portalatin-Mendez and Jennifer Uraga Lopez, 
+this web app serves as a resource guide for students and faculty seeking local activities
+near the Florida Atlantic University campus.
 
 ## Available Scripts
 
