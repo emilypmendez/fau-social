@@ -1,0 +1,214 @@
+@import '~mdb-ui-kit/css/mdb.min.css';
+
+.App-logo {
+  height: 20vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  margin-top: -50px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: grey;
+  text-align: center;
+}
+
+.App-link a {
+  color: #61dafb;
+}
+
+.Header-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: grey;
+  margin-left: 450px;
+  margin-right: 450px;
+  text-align: center;
+}
+
+/* The top navigation */
+.topnav {
+  background-color: #003065;
+  overflow: hidden;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: inline-block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: Helvetica;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+  font-weight: bold;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #B20106;
+  color: white;
+  font-weight: bold;
+}
+
+.header-button {
+  background-color: #003065;
+  color: white;
+  font-size: 29px;
+  padding: 10px 60px;
+  border-radius: 5px;
+  margin: 10px 0px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.header-button a:hover {
+  background-color: #B20106;
+  color: white;
+  border: white;
+}
+
+
+.Body-headers p {
+  align-items: center;
+  justify-content: center;
+  color: grey;
+  width: 100%;
+  background: cover;
+  font-size: 28px;
+  color: grey;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.Body-content {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  color: grey;
+  margin-left: 450px;
+  margin-right: 450px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 75px;
+  font-family: Helvetica;
+  font-weight: bold;
+  color: grey;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.container {
+  font-family: Helvetica;
+  font-weight: bold;
+  color: grey;
+  /* background-color: #003065; */
+}
+
+.iframe-container {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5%; /* 16:9 Aspect Ratio */
+  width: 100%;
+  /* padding-bottom: 56.25%; Ratio 16:9 ( 100%/16*9 = 56.25% ) */
+}
+
+.dark-background {
+  padding: 100px;
+  background-color: #f2f2f2; /* Use your preferred dark color */
+}
+
+.headshot {
+  width: 200px; /* Adjust the width to your desired size */
+  height: 200px; /* Adjust the height to your desired size */
+  object-fit: cover; /* Scale the image to cover the container without distortion */
+  margin-top: 25px;
+  margin-bottom: 25px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+/* If you want to center the image vertically and horizontally within its container */
+.headshot-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.linkedin {
+  width: 100px; /* Adjust the width to desired size */
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  background-color: rgba(0, 0, 0, 0.95);
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.9;
+  position: absolute;
+  width: 100%;
+  height: 50vh;
+  padding: 20px;
+  color: white;
+  margin-top: 50px;
+  justify-content: left;
+  align-items: left;
+}
+
+.footer a {
+  color: #61dafb;
+}
+
+.section-footer {
+  color: white;
+  margin-left: 450px;
+  margin-right: 450px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.footer-content {
+  color: white;
+  font-size: 24px;
+  margin-left: 450px;
+  margin-right: 450px;
+  marin-top: 50px;
+  margin-bottom: 50px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
