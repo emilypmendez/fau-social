@@ -4,7 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css"
 
 // import styled from 'styled-components';
 
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, Link } from 'react-router-dom';
 
 const Home = () => {
 
@@ -32,8 +32,8 @@ const Home = () => {
                 This is a work in progress and can be used as a resource for planning social activities nearby campus. <br/><br/>
                 All listed activities are within a 5 mile radius.
                 </p>
-                <a href="/activities" target="">
-                    <button 
+                    <Link 
+                        to="/activities" 
                         className="header-button" 
                         onClick={handleClick}
                         type="button"
@@ -41,8 +41,7 @@ const Home = () => {
                         outline size="lg"
                     >
                     View Local Activities Now
-                    </button>
-                </a>
+                    </Link>
             </header>
 
             <div className="Body-headers">
