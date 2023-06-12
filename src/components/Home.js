@@ -2,9 +2,19 @@ import React from 'react';
 import logo from '../images/fau_logo.png';
 import "bootstrap/dist/css/bootstrap.min.css"
 
-// import { Link } from 'react-router-dom';
+// import styled from 'styled-components';
+
+import { useNavigate } from 'react-router-dom';
 
 const Home = () => {
+
+    let navigate = useNavigate();
+    const handleClick = () => {
+        // BUTTON implementation details
+        let path = `/activities`;
+        navigate(path);
+      };
+
     return (
         <>
         <div className="App-link">
@@ -22,9 +32,17 @@ const Home = () => {
                 This is a work in progress and can be used as a resource for planning social activities nearby campus. <br/><br/>
                 All listed activities are within a 5 mile radius.
                 </p>
-                <button className="header-button" tag="a" outline size="lg" target="_blank" href="#">
-                View Local Activities Now
-                </button>
+                <a href="/activities" target="">
+                    <button 
+                        className="header-button" 
+                        onClick={handleClick}
+                        type="button"
+                        tag="a" 
+                        outline size="lg"
+                    >
+                    View Local Activities Now
+                    </button>
+                </a>
             </header>
 
             <div className="Body-headers">
