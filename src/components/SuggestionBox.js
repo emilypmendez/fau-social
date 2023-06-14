@@ -8,7 +8,7 @@ const SuggestionBox = () => {
                 <h1>Suggestion Box</h1>
                 <br/>
                 <center><p>Have an idea for this website? Let us know!</p></center>
-                <form name="contact" method="post" data-netlify="true">
+                <form name="contact" method="POST" data-netlify="true">
                     <input type="hidden" name="form-name" value="contact" />
                     <div className="form-group">
                         <label for="name">Name</label>
