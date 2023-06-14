@@ -21,10 +21,10 @@ const SuggestionBox = () => {
                         <p>
                             <br/>
                         <label>Your Role: 
-                            <select name="role[]" multiple>
-                                <option value="student" className="form-control" name="student" >Student</option>
-                                <option value="faculty" className="form-control" name="faculty" >Faculty</option>
-                                <option value="other" className="form-control" name="other" >Other</option>
+                            <select name="role[]" multiple className="form-control">
+                                <option value="student" name="student" >Student</option>
+                                <option value="faculty" name="faculty" >Faculty</option>
+                                <option value="other" name="other" >Other</option>
                             </select>
                         </label>
                         </p>
