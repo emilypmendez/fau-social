@@ -1,0 +1,404 @@
+{
+  "results": [
+    {
+      "id": "1",
+      "name": "The Fogelman Sports Museum",
+      "address": "777 Glades Road, Boca Raton, FL 33431",
+      "miles": "0.3",
+      "price": "Free",
+      "type": "Social"
+    },
+    {
+      "id": "2",
+      "name": "Cinemark Palace 20",
+      "address": "3200 Airport Rd, Boca Raton, FL 33431",
+      "miles": "2.3",
+      "price": "$",
+      "type": "Social"
+    },
+    {
+      "id": "3",
+      "name": "IPIC Boca Raton",
+      "address": "301 Plaza Real, Boca Raton, FL 33432",
+      "miles": "2.6",
+      "price": "$$",
+      "type": "Social"
+    },
+    {
+      "id": "4",
+      "name": "Sugar Sand Park",
+      "address": "300 S Military Trail, Boca Raton, FL 33486",
+      "miles": "3.6",
+      "price": "Free - $",
+      "type": "Social"
+    },
+    {
+      "id": "5",
+      "name": "Town Center at Boca Raton",
+      "address": "6000 Glades Rd\nBoca Raton, FL 33431",
+      "miles": "2.9",
+      "price": "$$$",
+      "type": "Social"
+    },
+    {
+      "id": "6",
+      "name": "Gumbo Limbo Nature Center",
+      "address": "1801 North Ocean Boulevard\nBoca Raton, Florida 33432",
+      "miles": "4.3",
+      "price": "Free",
+      "type": "Social"
+    },
+    {
+      "id": "7",
+      "name": "Mizner Park",
+      "address": "327 Plaza Real Suite 315, Boca Raton, FL 33432",
+      "miles": "2.4",
+      "price": "$$",
+      "type": "Social"
+    },
+    {
+      "id": "8",
+      "name": "Boca Raton Museum of Art",
+      "address": "501 Plaza Real\nBoca Raton Florida 33432",
+      "miles": "2.4",
+      "price": "$",
+      "type": "Social"
+    },
+    {
+      "id": "9",
+      "name": "Serenoa Glade Preserve",
+      "address": "1101 NW 15th St, Boca Raton, FL 33486",
+      "miles": "1.5",
+      "price": "Free",
+      "type": "Social"
+    },
+    {
+      "id": "10",
+      "name": "Strike 10 Bowling",
+      "address": "449 Plaza Real, Boca Raton, FL 33432",
+      "miles": "2.4",
+      "price": "$$",
+      "type": "Social"
+    },
+    {
+      "id": "11",
+      "name": "Adventure Park Escape Room",
+      "address": "11435 Park Access Rd, Boca Raton, FL 33498",
+      "miles": "1.9",
+      "price": "$$",
+      "type": "Social"
+    },
+    {
+      "id": "12",
+      "name": "Boomers",
+      "address": "3100 Airport Rd, Boca Raton, FL 33431",
+      "miles": "2.3",
+      "price": "$$",
+      "type": "Social"
+    },
+    {
+      "id": "13",
+      "name": "Whole Foods Market",
+      "address": "1400 Glades Rd Ste 110, Boca Raton, FL 33431",
+      "miles": "1.7",
+      "price": "$$",
+      "type": "Groceries"
+    },
+    {
+      "id": "14",
+      "name": "Publix at Palmetto Park Square",
+      "address": "1339 W Palmetto Park Rd, Boca Raton, FL 33486",
+      "miles": "2.8",
+      "price": "$$",
+      "type": "Groceries"
+    },
+    {
+      "id": "15",
+      "name": "Publix at Fifth Avenue Shops",
+      "address": "1968 NE 5th Ave, Boca Raton, FL 33431",
+      "miles": "1.9",
+      "price": "$$",
+      "type": "Groceries"
+    },
+    {
+      "id": "16",
+      "name": "Publix at Spanish River",
+      "address": "4141 N Federal Hwy, Boca Raton, FL 33431",
+      "miles": "2.4",
+      "price": "$$",
+      "type": "Groceries"
+    },
+    {
+      "id": "17",
+      "name": "Publix at Boca Village Square",
+      "address": "21230 St Andrews Blvd, Boca Raton, FL 33433",
+      "miles": "3.7",
+      "price": "$$",
+      "type": "Groceries"
+    },
+    {
+      "id": "18",
+      "name": "Trader Joe’s",
+      "address": "855 S Federal Hwy, Boca Raton, FL 33432",
+      "miles": "3",
+      "price": "$",
+      "type": "Groceries"
+    },
+    {
+      "id": "19",
+      "name": "The Fresh Market",
+      "address": "100 W Camino Real, Boca Raton, FL 33432",
+      "miles": "3",
+      "price": "$$$",
+      "type": "Groceries"
+    },
+    {
+      "id": "20",
+      "name": "Aldi",
+      "address": "4901 N Federal Hwy, Boca Raton, FL 33431",
+      "miles": "2.8",
+      "price": "$",
+      "type": "Groceries"
+    },
+    {
+      "id": "21",
+      "name": "Boca Hideaway",
+      "address": "2901 N Federal Hwy, Boca Raton, FL 33431",
+      "miles": "2.9",
+      "price": "$$",
+      "type": "Bars"
+    },
+    {
+      "id": "22",
+      "name": "Lion and Eagle English Pub",
+      "address": "2401 N Federal Hwy, Boca Raton, FL 33431",
+      "miles": "3.3",
+      "price": "$",
+      "type": "Bars"
+    },
+    {
+      "id": "23",
+      "name": "Herb and Roots",
+      "address": "140 NW 20th St, Boca Raton, FL 33431",
+      "miles": "1.2",
+      "price": "$$",
+      "type": "Bars"
+    },
+    {
+      "id": "24",
+      "name": "Irishmen",
+      "address": "1745 NW Boca Raton Blvd, Boca Raton, FL 33432",
+      "miles": "1",
+      "price": "$$",
+      "type": "Bars"
+    },
+    {
+      "id": "25",
+      "name": "O’ Brians Irish Pub",
+      "address": "51 SE 1st Ave., Boca Raton, FL 33432",
+      "miles": "2.6",
+      "price": "$",
+      "type": "Bars"
+    },
+    {
+      "id": "26",
+      "name": "Salt and Spirits",
+      "address": "180 S Federal Hwy, Boca Raton, FL 33432",
+      "miles": "2.8",
+      "price": "$",
+      "type": "Bars"
+    },
+    {
+      "id": "27",
+      "name": "Tap 42 Craft Kitchen & Bar - Boca Raton",
+      "address": "5050 Town Center Cir, Boca Raton, FL 33486",
+      "miles": "2.9",
+      "price": "$$",
+      "type": "Bars"
+    },
+    {
+      "id": "28",
+      "name": "Hooters",
+      "address": "2240 NW 19th St Suite 1101-A, Boca Raton, FL 33431",
+      "miles": "2.6",
+      "price": "$$",
+      "type": "Bars"
+    },
+    {
+      "id": "29",
+      "name": "Diplomat Cigar Lounge",
+      "address": "514 Via De Palmas, Boca Raton, FL 33432",
+      "miles": "3",
+      "price": "$$",
+      "type": "Bars"
+    },
+    {
+      "id": "30",
+      "name": "Tom Sawyer’s Restaurant",
+      "address": "1759 NW Boca Raton Blvd, Boca Raton, FL 33432",
+      "miles": "1.2",
+      "price": "$",
+      "type": "Restaurants"
+    },
+    {
+      "id": "31",
+      "name": "Las Fajitas",
+      "address": "2298 Dixie Hwy, Boca Raton, FL 33431",
+      "miles": "1.5",
+      "price": "$",
+      "type": "Restaurants"
+    },
+    {
+      "id": "32",
+      "name": "Pollo Tropical",
+      "address": "2499 N Federal Hwy, Boca Raton, FL 33431",
+      "miles": "3.3",
+      "price": "$",
+      "type": "Restaurants"
+    },
+    {
+      "id": "33",
+      "name": "Flashback DIner",
+      "address": "1450 N Federal Hwy, Boca Raton, FL 33432",
+      "miles": "2.1",
+      "price": "$$",
+      "type": "Restaurants"
+    },
+    {
+      "id": "34",
+      "name": "Max’s Grille",
+      "address": "404 Plaza Real, Boca Raton, FL 33432",
+      "miles": "2.6",
+      "price": "$$",
+      "type": "Restaurants"
+    },
+    {
+      "id": "35",
+      "name": "Ichiyami Buffet $ Sushi",
+      "address": "145 SE Mizner Blvd, Boca Raton, FL 33432",
+      "miles": "2.8",
+      "price": "$$",
+      "type": "Restaurants"
+    },
+    {
+      "id": "36",
+      "name": "J. Alexander’s Restaurant",
+      "address": "1400 Glades Rd Bay 200, Boca Raton, FL 33431",
+      "miles": "1.6",
+      "price": "$$$",
+      "type": "Restaurants"
+    },
+    {
+      "id": "37",
+      "name": "Mario’s Osteria",
+      "address": "1400 Glades Rd #210, Boca Raton, FL 33431",
+      "miles": "1.6",
+      "price": "$$",
+      "type": "Restaurants"
+    },
+    {
+      "id": "38",
+      "name": "Houston’s",
+      "address": "1900 NW Executive Center Cir, Boca Raton, FL 33431",
+      "miles": "2.6",
+      "price": "$$$",
+      "type": "Restaurants"
+    },
+    {
+      "id": "39",
+      "name": "Seasons 52",
+      "address": "2300 NW Executive Center Dr, Boca Raton, FL 33431",
+      "miles": "2.4",
+      "price": "$$",
+      "type": "Restaurants"
+    },
+    {
+      "id": "40",
+      "name": "Miller’s Ale House",
+      "address": "1200 Yamato Rd, Boca Raton, FL 33431",
+      "miles": "2.4",
+      "price": "$$",
+      "type": "Restaurants"
+    },
+    {
+      "id": "41",
+      "name": "Bark Park Dog Beach",
+      "address": "3001 N Ocean Blvd, Boca Raton, FL 33431",
+      "miles": "2.9",
+      "price": "Free",
+      "type": "Beach"
+    },
+    {
+      "id": "42",
+      "name": "Spanish River Park",
+      "address": "3001 N. State Road A-1-A, Boca Raton, FL 33431",
+      "miles": "3.4",
+      "price": "Free",
+      "type": "Beach"
+    },
+    {
+      "id": "43",
+      "name": "Red Reef Park",
+      "address": "1400 N Ocean Blvd, Boca Raton, FL 33432",
+      "miles": "4.6",
+      "price": "Free",
+      "type": "Beach"
+    },
+    {
+      "id": "44",
+      "name": "South Beach Park",
+      "address": "400 N State Road A-1-A, N Ocean Blvd, Boca Raton, FL 3343",
+      "miles": "5.1",
+      "price": "Free",
+      "type": "Beach"
+    },
+    {
+      "id": "45",
+      "name": "South Inlet Park",
+      "address": "1100 S Ocean Blvd, Boca Raton, FL 33432",
+      "miles": "4.7",
+      "price": "Free",
+      "type": "Beach"
+    },
+    {
+      "id": "46",
+      "name": "Deerfield Beach",
+      "address": "101 SE 21st Ave, Deerfield Beach, FL 33441",
+      "miles": "5.9",
+      "price": "Free",
+      "type": "Beach"
+    },
+    {
+      "id": "47",
+      "name": "Yoga Journey",
+      "address": "2240 NW 19th St #604, Boca Raton, FL 33431",
+      "miles": "2.8",
+      "price": "$",
+      "type": "Social"
+    },
+    {
+      "id": "48",
+      "name": "Sushi Yama Asian Bistro",
+      "address": "7050 W Palmetto Park Rd #33, Boca Raton, FL 33433",
+      "miles": "5.6",
+      "price": "$$",
+      "type": "Restaurants"
+    },
+    {
+      "id": "49",
+      "name": "Brooklyn Water Bagel",
+      "address": "2250 N Federal Hwy, Boca Raton, FL 33431",
+      "miles": "2",
+      "price": "$",
+      "type": "Restaurants"
+    },
+    {
+      "id": "50",
+      "name": "Bowlero Boca Raton",
+      "address": "21046 Commercial Trail\nBoca Raton, FL 33486",
+      "miles": "2.9",
+      "price": "$",
+      "type": "Social"
+    }
+  ]
+}

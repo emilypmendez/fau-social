@@ -52,16 +52,16 @@ const Footer = () => {
 
                             <ul className="list-unstyled">
                                 <li>
-                                    <Link to="/" id="active" className="text-white">Home</Link>
+                                    <Link to="https://github.com/emilypmendez/fau-social" className="text-white">GitHub Repo</Link>
                                 </li>
                                 <li>
-                                    <Link to="/activities" className="text-white">View Social Activities</Link>
+                                    <Link to="https://calendar.fau.edu/" className="text-white">Events Calendar</Link>
                                 </li>
                                 <li>
-                                    <Link to="/authors" className="text-white">Meet the Authors</Link>
+                                    <Link to="https://onestop.fau.edu/" className="text-white">Get Help From FAU</Link>
                                 </li>
                                 <li>
-                                    <Link to="/suggestions" className="text-white">Suggestion Box</Link>
+                                    <Link to="https://directory.fau.edu/" className="text-white">Directory</Link>
                                 </li>
                             </ul>
                             </div>
@@ -74,7 +74,7 @@ const Footer = () => {
                         {/* <!-- Copyright --> */}
                         <div className="text-center p-3">
                         © 2023 All Rights Reserved. <br/>
-                        <a class="text-white" href="https://emilypmendez.com/">Designed by Emily Portalatín-Méndez.</a>
+                        <a className="text-white" href="https://emilypmendez.com/">Designed by Emily Portalatín-Méndez.</a>
                         </div>
                         {/* <!-- Copyright --> */}
                     {/* </footer> */}

@@ -19,12 +19,12 @@ function App() {
     <>
     <Router>
     <div className=''>
-      <MouseParticles g={1} color="random" cull="col,image-wrapper"/>
+      <MouseParticles g={2} color="random" cull="col,image-wrapper"/>
       <Navbar/>
       <Routes>
         <Route exact path="/" element={<Home/>}/>
         <Route path="/authors" element={<Authors/>}/>
-        <Route path="/activities" element={<Activities/>}/>
+        <Route path="/activities" element={<Activities />}/>
         <Route path="/suggestions" element={<SuggestionBox/>}/>
       </Routes>
 

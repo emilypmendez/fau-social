@@ -10,7 +10,7 @@ const Home = () => {
 
     let navigate = useNavigate();
     const handleClick = () => {
-        // BUTTON implementation details
+        // HEADER BUTTON implementation details
         let path = `/activities`;
         navigate(path);
       };

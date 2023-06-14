@@ -1,5 +1,4 @@
 import React, { useState, useEffect, useMemo } from 'react';
-// import { Container, Row, Col } from 'mdb-ui-kit';
 import "bootstrap/dist/css/bootstrap.min.css"
 import "mdb-ui-kit/css/mdb.min.css"
 
@@ -12,44 +11,68 @@ const Activities = () => {
     const [data, setData] = useState([])
 
     useEffect(() => {
-        const doFetch = async () => {
-          const response = await fetch("https://randomuser.me/api/?results=100")
-          const body = await response.json()
-          const contacts = body.results
-          console.log(contacts)
-          setData(contacts)
+        const fetchData = async () => {
+         try {
+            const response = await fetch(`./assets/activities.json`) // https://randomuser.me/api/?results=100
+            const jsonData = await response.json();
+            const list = jsonData.results;
+            console.log(list)
+            setData(list)
+          } catch (error) {
+            console.error("Error fetching data:", error)
+            }
         }
-        doFetch()
+        fetchData()
       }, [])
+
+      // useEffect(() => {
+      //   fetch(`./assets/activities.json`)
+      //     .then(res => res.json())
+      //     .then(data => { 
+      //       console.log(data)
+      //       setData(data.results)
+      //     }).catch(err => {
+      //       console.log(err)
+      //     })
+      // }, [])
 
     const columns = useMemo(
         () => [
           {
-            Header: "List Item Number",
-            accessor: "id.value",
+            Header: "List Number",
+            accessor: "id",
+            // Cell: (cellProps) => {
+            //       return console.log({cellProps});
+            // }
           },
           {
-            Header: "Title",
-            accessor: "name.title",
+            Header: "Name",
+            accessor: "name",
+            disableSortBy: false, // disable sorting for this column
           },
           {
-            Header: "First Name",
-            accessor: "name.first",
+            Header: "Address",
+            accessor: "address",
+            disableSortBy: false, // disable sorting for this column
           },
           {
-            Header: "Last Name",
-            accessor: "name.last",
+            Header: "Miles",
+            accessor: "miles",
+            Filter: SelectColumnFilter,
+            filter: 'contains',
           },
           {
-            Header: "Email",
-            accessor: "email",
-          },
-          {
-            Header: "City",
-            accessor: "location.city",
-            disableSortBy: true, // disable sorting for this column
+            Header: "Price",
+            accessor: "price",
             Filter: SelectColumnFilter,
             filter: 'equals',
+          },
+          {
+            Header: "Type",
+            accessor: "type",
+            disableSortBy: false, // disable sorting for this column
+            Filter: SelectColumnFilter,
+            filter: 'contains',
           },
           // {
           //   Header: 'Color',
@@ -59,42 +82,43 @@ const Activities = () => {
           //     return <Authors {...cellProps}/>
           //   }
           // },
-          {
-            Header: 'Hemisphere',
-            accessor: (values) => {
-              const { latitude, longitude } = values.location.coordinates;
-              const first = Number(latitude) > 0 ? 'N' : 'S';
-              const second = Number(longitude) > 0 ? 'E' : 'W';
-              return first + '/' + second;
-            },
-            Filter: SelectColumnFilter,
-            filter: 'equals',
-            disableSortBy: true, // disable sorting for this column
-            Cell: ({ cell }) => {
-              const { value } = cell;
+          // {
+          //   Header: 'Hemisphere',
+          //   accessor: (values) => {
+          //     const { latitude, longitude } = values.location.coordinates;
+          //     const first = Number(latitude) > 0 ? 'N' : 'S';
+          //     const second = Number(longitude) > 0 ? 'E' : 'W';
+          //     return first + '/' + second;
+          //   },
+          //   Filter: SelectColumnFilter,
+          //   filter: 'equals',
+          //   disableSortBy: true, // disable sorting for this column
+          //   Cell: ({ cell }) => {
+          //     const { value } = cell;
     
-              const pickEmoji = (value) => {
-                let first = value[0]; // N or S
-                let second = value[2]; // E or W
-                const options = ['⇖', '⇗', '⇙', '⇘'];
-                let num = first === 'N' ? 0 : 2;
-                num = second === 'E' ? num + 1 : num;
-                return options[num];
-              };
+          //     const pickEmoji = (value) => {
+          //       let first = value[0]; // N or S
+          //       let second = value[2]; // E or W
+          //       const options = ['⇖', '⇗', '⇙', '⇘'];
+          //       let num = first === 'N' ? 0 : 2;
+          //       num = second === 'E' ? num + 1 : num;
+          //       return options[num];
+          //     };
     
-              return (
-                <div style={{ textAlign: 'center', fontSize: 18 }}>
-                  {pickEmoji(value)}
-                </div>
-              );
-            },
-          },
+          //     return (
+          //       <div style={{ textAlign: 'center', fontSize: 18 }}>
+          //         {pickEmoji(value)}
+          //       </div>
+          //     );
+          //   },
+          // },
         ],
         []
       )
 
     return (
         <>
+            <h1 style={{ marginTop: 50 }}>Activities</h1>
             <Container style={{ marginTop: 50 }}>
               <TableContainer columns={columns} data={data} />
             </Container>
