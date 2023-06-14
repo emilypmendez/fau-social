@@ -28,11 +28,11 @@ const Authors = () => {
                         </a>
                         </center>
                     <br/><br/>
-                    <p>Published in MIT Press and Media Labs, my passion for learning and scholarly pursuits 
-                        are demonstrated in my independent research for artificial intelligence, blockchain, 
-                        and design science. Consistent experience in these fields has enabled me to stay at 
-                        the forefront of emerging technologies and has given me a unique perspective on how to 
-                        leverage them to solve complex business problems.
+                    <p>Published in MIT Press and Media Labs, Emily has a passion for learning and scholarly pursuits 
+                        that are demonstrated in her independent research for artificial intelligence, blockchain, 
+                        and design science. Consistent experience in these fields has enabled her to stay at 
+                        the forefront of emerging technologies and has empowered her with a unique perspective on how to 
+                        leverage them to solve complex business problems. Emily lives in New York City with her cat.
                     </p>
                 </div>
                 <div className="col-sm">
@@ -45,18 +45,16 @@ const Authors = () => {
                     </div>
                     <h1>Jennifer Uraga Lopez</h1><br/>
                         <center>
-                            <a href="https://www.imdb.com/name/nm0000182/" target="_blank" rel="noreferrer">
+                            <a href="https://www.linkedin.com/in/jennifer-uragalopez" target="_blank" rel="noreferrer">
                                 <img src={linkedIn} alt="Jennifer's LinkedIn profile link" className="linkedin"/>
                             </a>
                         </center>
                     <br/><br/>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-                        nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
-                        reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt 
-                        mollit anim id est laborum.
+                    <p>Jennifer is a rising senior at Lehman College, majoring in Computer Science. She is 
+                        currently a Research Experience for Undergraduate (REU) student at Florida Atlantic University,
+                        studying Artificial Intelligence for Smart Cities. She is also a member of the Lehman College
+                        Computer Science Club and has participated in the Lehman College Hackathon. She is interested
+                        in pursuing a career in software engineering and artificial intelligence. Jennifer lives in New York City with her dog.
                     </p>
                 </div>
             </div>
