@@ -50,8 +50,8 @@ const Home = () => {
                     Click on the event to learn more.</p>
             </div>
 
-            <div className="Body-content">
-                <div className="row">
+            {/* <div className="Body-content">
+                {/* <div className="row">
                     <div className="col-sm">
                         <div className="card">
                             <div className="card-body">
@@ -110,52 +110,19 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
 
             <div className="iframe-container">
-                <iframe src="https://calendar.fau.edu/widget/view?schools=fau&days=60&num=50&experience=inperson&container=localist-widget-10060100&template=modern"
+                <iframe src="https://calendar.fau.edu/widget/combo?schools=fau&days=60&num=50&target_blank=1&html_descriptions=1&experience=inperson&format=html&template=card"
                     title="FAU Calendar"
-                    width={1024}
-                    height={500}
+                    width={1920}
+                    height={1024}
                     sandbox='allow-scripts allow-same-origin'
                     loading="lazy"
                     >
                 </iframe>
-                {/* <Link 
-                to="https://calendar.fau.edu/widget/view?schools=fau&days=60&num=50&experience=inperson&container=localist-widget-13250798&template=modern"
-                style={{ marginLeft: 100, marginRight: 100, display: 'block', width: '81px', marginTop: 10}} 
-                title="Widget powered by Localist Event Calendar Software" 
-                target="_blank">
-                    <img src="//d3e1o4bcbhmj8g.cloudfront.net/assets/platforms/default/about/widget_footer.png" 
-                        alt="Localist Online Calendar Software" 
-                        style={{ verticalAlign: 'middle', border: '0' }} 
-                        width="81" 
-                        height="23">
-                    </img>
-                </Link> */}
                 </div>
             </div>
-
-            
-
-            {/* <div className="container">
-
-            <div className="activities">
-                <Activities />
-            </div>
-
-            <br/><br/><br/><br/><br/>
-            
-            <div className="authors">
-                <Authors />
-            </div>
-
-            <br/><br/><br/><br/><br/>
-
-            <div className="suggestion-box"> 
-                <SuggestionBox />
-            </div>
-            </div> */}
 
         </>
     )
